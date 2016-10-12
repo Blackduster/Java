@@ -19,6 +19,7 @@ public class EuklidAlgo {
 			b =r;
 			
 		}
+		//Test
 		System.out.println("Der ggT lautet " + a);
 	}
 
