@@ -1,6 +1,5 @@
 package uebungen;
 import java.util.Scanner;
-
 /**
  * Created by Achim on 17.10.2016.
  */
@@ -15,22 +14,19 @@ public class Mario {
         System.out.print("Bitte eingeben, wie viele Reihen sie möchten: ");
         x = sc.nextInt();
 
-        for(int i=4; i<x+4;i++){
-
-            for(int j=2; j<i ;j++){
-                System.out.print("#");
+        for(int i=2; i<x+2;i++){
+            for(int k=x+2;k>i;k--) {
+                System.out.print(" ");
             }
+
+            for (int j = 0; j < i; j++) {
+            System.out.print("#");
+            }
+
         System.out.println("");
-
-
 
         }
 
-
-
-
-
     }
-
 
 }
