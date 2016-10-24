@@ -1,4 +1,4 @@
-package uebungen;
+package uebungen.Uebungsblatt1;
 
 public class Aufgabe3 {
 

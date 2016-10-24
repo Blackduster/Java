@@ -1,4 +1,4 @@
-package uebungen;
+package uebungen.Uebungsblatt2;
 
 /**
  * Created by awinter on 24.10.16.

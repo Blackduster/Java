@@ -1,4 +1,4 @@
-package uebungen;
+package uebungen.Sonstige;
 
 import java.util.Scanner;
 
