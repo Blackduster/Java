@@ -1,6 +1,5 @@
 package uebungen.Uebungsblatt2;
-
-import java.util.Date;
+import java.util.Calendar;
 
 /**
  * Created by awinter on 24.10.16.
@@ -9,10 +8,11 @@ public class Ueb2_Aufgabe4 {
 
     public static void main(String[] args){
 
-        Date date = new Date();
-        int stunden = date.getHours();
-        int minuten = date.getMinutes();
-        int sekunden = date.getSeconds();
+        Calendar cal = Calendar.getInstance();
+        int stunden = cal.get(Calendar.HOUR_OF_DAY);
+        int minuten = cal.get(Calendar.MINUTE);
+        int sekunden = cal.get(Calendar.SECOND);
+
 
         //a
         int seknow = (stunden * 60 * 60) + (minuten *60) + sekunden;
