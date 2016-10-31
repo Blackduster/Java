@@ -11,7 +11,6 @@ public class Tausch {
         int y = 7;
         int t = x;
 
-
         System.out.println(x);
         System.out.println(y);
 
@@ -22,9 +21,4 @@ public class Tausch {
         System.out.println("\n" + x);
         System.out.println(y);
     }
-
-
-
-
-
 }
