@@ -1,6 +1,5 @@
 package uebungen.Uebungsblatt4;
 import java.util.Scanner;
-
 /**
  * Created by awinter on 07.11.16.
  */
@@ -12,7 +11,6 @@ public class Exercise4 {
         int year = sc.nextInt();
         boolean istJahr=false;
         if (year % 4 == 0){
-
             if (year % 100 == 0 ) {
                 if (year % 400 == 0) {
                     System.out.print(year + " ist ein Schaltjahr");
@@ -26,7 +24,5 @@ public class Exercise4 {
             if (istJahr == false) System.out.println(year + " ist ein Schaltjahr");
             //ewwwwwwww
         }else System.out.print(year + " ist kein Schaltjahr");
-
     }
-
 }

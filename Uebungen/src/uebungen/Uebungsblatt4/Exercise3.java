@@ -1,6 +1,5 @@
 package uebungen.Uebungsblatt4;
 import java.util.Scanner;
-
 /**
  * Created by awinter on 07.11.16.
  */
@@ -31,7 +30,5 @@ public class Exercise3 {
             wrong = false;
         }
         if (wrong == true) System.out.print("Ung\u00fcltige Eingabe");
-
-
     }
 }

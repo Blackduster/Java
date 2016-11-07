@@ -18,11 +18,5 @@ public class Aufgabe2 {
         if (hours <= 23 && hours >= 00 && minutes <= 59 && minutes >=00 && seconds >=00 && seconds <= 59){
             System.out.print("Die Uhrzeit ist g\u00fcltig");
         }else System.out.print("Die Uhrzeit ist ung\u00fcltig");
-
-
-
-
-
-
     }
 }
