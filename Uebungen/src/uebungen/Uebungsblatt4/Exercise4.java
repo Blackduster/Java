@@ -22,7 +22,6 @@ public class Exercise4 {
                 }
             }
             if (istJahr == false) System.out.println(year + " ist ein Schaltjahr");
-            //ewwwwwwww
         }else System.out.print(year + " ist kein Schaltjahr");
     }
 }
