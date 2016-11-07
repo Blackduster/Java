@@ -1,10 +1,7 @@
 package uebungen.Uebungsblatt4;
 import java.util.Scanner;
-/**
- * Created by awinter on 07.11.16.
- */
-public class Exercise3 {
 
+public class Exercise3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("1. Zeichen eingeben: ");

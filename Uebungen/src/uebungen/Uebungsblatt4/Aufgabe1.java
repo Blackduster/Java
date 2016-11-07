@@ -1,11 +1,7 @@
 package uebungen.Uebungsblatt4;
 import java.util.Scanner;
 
-/**
- * Created by awinter on 07.11.16.
- */
 public class Aufgabe1 {
-
     public static void main(String[] args) {
         System.out.print("Bitte geben Sie Ihre Martrikelnummer ein: ");
         Scanner sc = new Scanner(System.in);
@@ -15,6 +11,5 @@ public class Aufgabe1 {
             System.out.println("Martrikelnummer ist gültig");
 
         else System.out.println("Martrikelnummer stimmt nicht");
-
     }
 }
