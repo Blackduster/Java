@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Exercise1b {
     public static void main(String[] args){
-        //Aufgabe a)
+        //Aufgabe b)
         Scanner sc = new Scanner(System.in);
         System.out.print("Bitte Fallzeit eingeben: ");
         int Falltime = sc.nextInt();
