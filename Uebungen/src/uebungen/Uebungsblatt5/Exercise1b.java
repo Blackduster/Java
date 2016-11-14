@@ -12,8 +12,5 @@ public class Exercise1b {
         for (int i = 1; i<=Falltime; i += 5){
             System.out.println(0.5 * g * (Math.pow(i , 2)));
         }
-
-
-
     }
 }
