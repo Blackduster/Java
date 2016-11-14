@@ -28,5 +28,4 @@ public class Exercise4 {
         }else System.out.print(year + " ist kein Schaltjahr");
 
     }
-
 }

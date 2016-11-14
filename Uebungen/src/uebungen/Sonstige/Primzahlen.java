@@ -12,8 +12,8 @@ public class Primzahlen {
             new Thread2().start();
             new Thread4().start();
 
-            von = 0;
-            biswieviel = 5000;
+            von = 1;
+            biswieviel = 250000000;
 
             for (i = von; i <= biswieviel; i++) {
                 n = 2;
@@ -34,8 +34,8 @@ public class Primzahlen {
         int biswieviel2, von2;
         int i, n;
 
-        von2 = 21;
-        biswieviel2 = 40;
+        von2 = 250000001;
+        biswieviel2 = 500000000;
 
             for (i = von2; i <= biswieviel2; i++) {
             n = 2;
@@ -59,8 +59,8 @@ public class Primzahlen {
             int biswieviel2, von2;
             int i, n;
 
-            von2 = 41;
-            biswieviel2 = 52;
+            von2 = 500000001;
+            biswieviel2 = 750000000;
 
             for (i = von2; i <= biswieviel2; i++) {
                 n = 2;
@@ -83,8 +83,8 @@ public class Primzahlen {
             int biswieviel2, von2;
             int i, n;
 
-            von2 = 53;
-            biswieviel2 = 60;
+            von2 = 750000001;
+            biswieviel2 = 1000000000;
 
             for (i = von2; i <= biswieviel2; i++) {
                 n = 2;
