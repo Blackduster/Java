@@ -1,8 +1,5 @@
 package uebungen.Uebungsblatt5;
 
-/**
- * Created by awinter on 14.11.16.
- */
 public class Exercise2 {
     public static void main(String[] args){
         double Bufsum= 1;
