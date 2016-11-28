@@ -23,7 +23,6 @@ public class Exercise4 {
         else if (b < 0){
             summe = 1.0 / powi(a, abs(b));
         }
-
     return summe;
     }
 
