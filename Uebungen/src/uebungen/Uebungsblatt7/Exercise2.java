@@ -26,7 +26,7 @@ public class Exercise2 {
     }
 
     private static float roundfloat(double number, int prec){
-
+//
 
 
     }
