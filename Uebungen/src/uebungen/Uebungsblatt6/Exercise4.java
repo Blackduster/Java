@@ -14,27 +14,31 @@ public class Exercise4 {
         System.out.println(pow(a, b));
     }
 
-    private static double pow(double a, int b){
+    public static double pow(double a, int b){
         double summe = a;
         if(b > 0){
-            for (; b > 1; b--){
-                 summe *= a;
-            }
+            summe = powi(a, b);
         }
         else if(b == 0) summe = 1;
         else if (b < 0){
-            b = abs(b);
-            for(; b > 1; b--){
-                summe *= a;
-            }
-            summe = 1.0 / summe;
+            summe = 1.0 / powi(a, abs(b));
         }
 
     return summe;
     }
 
-    private static int abs(int b){
-        return (b * (-1));
+    public static int abs(int b){
+        if (b < 0) return (b * (-1));
+        else if (b == 0) return 0;
+        else if (b > 0) return b;
+        else return 0;
+    }
 
+    private static double powi(double a, int b) {
+        double summe = a;
+        for (; b > 1; b--) {
+            summe *= a;
+        }
+        return summe;
     }
 }
