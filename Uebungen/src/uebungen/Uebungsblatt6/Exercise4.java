@@ -14,7 +14,7 @@ public class Exercise4 {
         System.out.println(pow(a, b));
     }
 
-    public static double pow(double a, int b){
+    private static double pow(double a, int b){
         double summe = a;
         if(b > 0){
             for (; b > 1; b--){
@@ -33,7 +33,7 @@ public class Exercise4 {
     return summe;
     }
 
-    public static int abs(int b){
+    private static int abs(int b){
         return (b * (-1));
 
     }
