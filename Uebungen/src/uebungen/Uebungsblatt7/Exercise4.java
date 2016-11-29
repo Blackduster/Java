@@ -1,5 +1,4 @@
 package uebungen.Uebungsblatt7;
-
 import java.util.Scanner;
 
 public class Exercise4 {
