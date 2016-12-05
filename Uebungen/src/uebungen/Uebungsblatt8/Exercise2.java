@@ -1,9 +1,6 @@
 package uebungen.Uebungsblatt8;
 import java.util.Scanner;
 
-/**
- * Created by awinter on 05.12.16.
- */
 public class Exercise2 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -32,7 +29,6 @@ public class Exercise2 {
         }
         return minvalue;
     }
-
     private static double getMaxValue(double[] Werte){
         double maxvalue = Werte[0];
         for (int i = 0; i <= Werte.length; i++){
@@ -51,5 +47,4 @@ public class Exercise2 {
         }
         return (average / Werte.length);
     }
-
 }
