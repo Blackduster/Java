@@ -24,6 +24,5 @@ public class Exercise1_Rechteck {
         System.out.print(summe*4);
 
 
-
     }
 }

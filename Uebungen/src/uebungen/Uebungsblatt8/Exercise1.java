@@ -1,9 +1,6 @@
 package uebungen.Uebungsblatt8;
 import java.util.Scanner;
 
-/**
- * Created by awinter on 05.12.16.
- */
 public class Exercise1 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -13,9 +10,7 @@ public class Exercise1 {
         int exp = sc.nextInt();
 
         System.out.println(recexp(base, exp));
-
     }
-
     private static int recexp(int base, int exp){
         if (exp == 0){
             return 1;
@@ -23,7 +18,6 @@ public class Exercise1 {
         else {
             return base * recexp(base, (exp - 1));
         }
-
     }
 
 }
