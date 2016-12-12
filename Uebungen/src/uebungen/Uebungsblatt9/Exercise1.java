@@ -3,21 +3,20 @@ package uebungen.Uebungsblatt9;
 
 public class Exercise1 {
     public static void main(String[] args) {
-        int[] array = new int[6];
+        int[] lottozahlen = new int[6];
         outer:
-        for (int i = 0; i < array.length;) {
-            int a = (int) ((49 * Math.random())+1);
-            for (int j = 0; j < array.length; j++) {
-                if (array[j] == a) {
-                    continue outer;
-                }
+        for (int i = 0; i < lottozahlen.length; i++) {
+            int gezogeneZahl = (int) ((49 * Math.random())+1);
+            if (numberAlreadyIncluded(lottozahlen, gezogeneZahl)){
+                i--;
+                continue outer;
             }
-            array[i] = a;
-            i++;
+
+            lottozahlen[i] = gezogeneZahl;
         }
-        sort(array);
-        for (int g = 0; g < array.length; g++) {
-            System.out.println(array[g]);
+        sort(lottozahlen);
+        for (int g = 0; g < lottozahlen.length; g++) {
+            System.out.println(lottozahlen[g]);
         }
     }
 
@@ -32,5 +31,14 @@ public class Exercise1 {
             }
         }
         return array;
+    }
+
+    private static Boolean numberAlreadyIncluded(int[] array, int number) {
+        for (int j = 0; j < array.length; j++) {
+            if (array[j] == number) {
+                return true;
+            }
+        }
+        return false;
     }
 }
