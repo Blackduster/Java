@@ -1,13 +1,9 @@
 package uebungen.Sonstige;
-
 import java.util.Scanner;
 
 public class EuklidAlgo {
-
     private static Scanner sc;
-
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         int a, b, r;
         sc = new Scanner(System.in);
         System.out.print("Bitte eine Zahl A eingeben: ");
@@ -18,9 +14,7 @@ public class EuklidAlgo {
             r = a % b;
             a = b;
             b = r;
-
         }
-        //Test
         System.out.println("Der ggT lautet " + a);
     }
 
