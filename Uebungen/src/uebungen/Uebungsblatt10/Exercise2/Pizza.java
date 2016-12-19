@@ -1,19 +1,16 @@
 package uebungen.Uebungsblatt10.Exercise2;
 
 public class Pizza {
-    private int anzahl;
     private String name;
-    private int[] durchmesser = new int[anzahl];
-    private double[] preis = new double[anzahl];
+    private int[] durchmesser;
+    private double[] preis;
 
-    public Pizza(int anzahl, String name, int[] durchmesser, double[] preis){
-        this.anzahl = anzahl;
+    public Pizza(String name, int[] durchmesser, double[] preis){
         this.name = name;
-        for (int i = 0; i<=this.anzahl;i++){
+        for (int i = 0; i<=durchmesser.length;i++){
             this.durchmesser[i] = durchmesser[i];
             this.preis[i] = preis[i];
         }
-
     }
 
     public String setName(String name){
@@ -28,7 +25,7 @@ public class Pizza {
     }
 
     public void setDurchmesser(int[] durchmesser) {
-        for(int i = 0; i <= this.anzahl; i++){
+        for(int i = 0; i <= durchmesser.length; i++){
             this.durchmesser[i] = durchmesser[i];
         }
 
@@ -39,7 +36,7 @@ public class Pizza {
     }
 
     public void setPreis(double[] preis) {
-        for(int i = 0; i <= this.anzahl; i++){
+        for(int i = 0; i <= preis.length; i++){
             this.preis[i] = preis[i];
         }
     }
