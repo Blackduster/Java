@@ -7,37 +7,31 @@ public class Pizza {
 
     public Pizza(String name, int[] durchmesser, double[] preis){
         this.name = name;
-        for (int i = 0; i<=durchmesser.length;i++){
-            this.durchmesser[i] = durchmesser[i];
-            this.preis[i] = preis[i];
-        }
+        this.durchmesser = durchmesser;
+        this.preis = preis;
     }
 
-    public String setName(String name){
+    public String getName() {
         return this.name;
     }
-    public void getName(){
+
+    public void setName(String name) {
         this.name = name;
     }
 
     public int[] getDurchmesser() {
-        return durchmesser[];
+        return durchmesser;
     }
 
     public void setDurchmesser(int[] durchmesser) {
-        for(int i = 0; i <= durchmesser.length; i++){
-            this.durchmesser[i] = durchmesser[i];
-        }
-
+        this.durchmesser = durchmesser;
     }
 
     public double[] getPreis() {
-        return preis[];
+        return preis;
     }
 
     public void setPreis(double[] preis) {
-        for(int i = 0; i <= preis.length; i++){
-            this.preis[i] = preis[i];
-        }
+        this.preis = preis;
     }
 }
