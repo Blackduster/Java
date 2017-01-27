@@ -5,12 +5,12 @@ package uebungen.Sonstige.AlteKlausuren.WS1314;
  */
 public class Aufgabe1 {
     public static void main(String[] args) {
-        System.out.println(istZweistellig(-15));
+        System.out.println(istZweistellig(98));
     }
 
     public static boolean istZweistellig(int zahl) {
         if (zahl < 0) zahl *= -1;
-        if (zahl > 9) return true;
+        if (zahl >= 10 && zahl < 100) return true;
         else return false;
     }
 }
