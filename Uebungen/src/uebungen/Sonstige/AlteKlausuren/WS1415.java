@@ -5,22 +5,18 @@ package uebungen.Sonstige.AlteKlausuren;
  */
 public class WS1415 {
     public static void main(String[] args) {
-        System.out.println(palindromTest("ot9o".toCharArray()));
+
+        System.out.println(palindromTest("stets".toCharArray()));
     }
 
     public static boolean palindromTest(char[] feld) {
-        boolean erg = true;
-        char[] feld2 = new char[feld.length];
         int j = 0;
-        for (int i = feld.length - 1; i >= 0; i--) {
-            feld2[i] = feld[j];
-            j++;
+        for (int i = feld.length - 1; i > 0; i--) {
+            if (feld[i] != feld[j])
+                return false;
+            else
+                j++;
         }
-        for (int i = 0; i < feld.length; i++) {
-            if (feld[i] == feld2[i])
-                System.out.print("");
-            else erg = false;
-        }
-        return erg;
+        return true;
     }
 }
