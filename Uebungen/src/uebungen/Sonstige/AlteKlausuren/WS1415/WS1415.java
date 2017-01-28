@@ -1,4 +1,4 @@
-package uebungen.Sonstige.AlteKlausuren;
+package uebungen.Sonstige.AlteKlausuren.WS1415;
 
 /**
  * Created by Achim on 27.01.2017.

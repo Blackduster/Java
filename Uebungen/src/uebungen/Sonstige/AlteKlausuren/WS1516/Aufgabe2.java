@@ -18,18 +18,7 @@ public class Aufgabe2 {
                 zahl[i] = (int) (text[j]);
             }
         }
-        /*
-        zahl[0] = (int) (text[0]);
-        zahl[1] = (int) (text[2]);
-        zahl[2] = (int) (text[3]);
-        zahl[3] = (int) (text[4]);
-        zahl[4] = (int) (text[6]);
-        zahl[5] = (int) (text[7]);
-        zahl[6] = (int) (text[8]);
-        zahl[7] = (int) (text[9]);
-        zahl[8] = (int) (text[10]);
-        zahl[9] = (int) (text[12]);
-        */
+
         for (int i = 0; i < zahl.length; i++) {
             summe += zahl[i] * (i + 1);
         }
