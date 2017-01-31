@@ -14,7 +14,7 @@ public class Aufgabe2 {
         int zaehler = 0;
         int[] zahl = new int[15];
         for (int i = 0; i < text.length; i++) {
-            if (text[i] < '0' || text[i] > '9')
+            if (text[i] == '-')
                 continue;
             else
                 zahl[zaehler] = (int) text[i] - 48;
