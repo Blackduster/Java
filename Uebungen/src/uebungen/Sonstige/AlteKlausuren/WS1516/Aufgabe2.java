@@ -17,7 +17,7 @@ public class Aufgabe2 {
             if (text[i] == '-')
                 continue;
             else
-                zahl[zaehler] = (int) text[i] - 48;
+                zahl[zaehler] = text[i] - '0';
             zaehler++;
         }
         for (int i = 0; i < zahl.length; i++) {
