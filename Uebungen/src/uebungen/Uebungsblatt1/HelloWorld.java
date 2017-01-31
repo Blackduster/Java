@@ -7,7 +7,6 @@ public class HelloWorld {
         String a = "Hallo";
         String b = "Welt";
         System.out.println(a + b);
-
     }
 
 }
