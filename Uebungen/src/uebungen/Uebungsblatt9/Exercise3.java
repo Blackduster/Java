@@ -8,6 +8,7 @@ public class Exercise3{
             System.out.println(a * b);
         }else{
             System.out.println("Es wurde eine falsche Anzahl von Parametern übergeben");
+
         }
 
     }

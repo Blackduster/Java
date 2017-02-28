@@ -7,6 +7,10 @@ public class HelloWorld {
         String a = "Hallo";
         String b = "Welt";
         System.out.println(a + b);
+
+        int[] test = new int[5];
+        test[2] = 324;
+        System.out.println(test[0]);
     }
 
 }
